@@ -1,4 +1,5 @@
 # LGLDatePickerView
+
 > 使用说明
 ```
 /*
@@ -14,4 +15,5 @@
     }];
 }
 ```
-![image](https://github.com/liguoliangiOS/LGLDatePickerView/blob/master/LGLDatePickerView/lglDatePickView.gif)
+
+![Alt Text](https://github.com/liguoliangiOS/LGLDatePickerView/blob/master/LGLDatePickerView/lglDatePickView.gif)
