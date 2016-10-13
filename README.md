@@ -13,7 +13,6 @@
     [[LGLDatePickerView shareDatePiker] dateCallBackSelectBlock:^(NSString *date) {
         self.date.text = date;
     }];
-}
 ```
 
 ![Alt Text](https://github.com/liguoliangiOS/LGLDatePickerView/blob/master/LGLDatePickerView/lglDatePickView.gif)
