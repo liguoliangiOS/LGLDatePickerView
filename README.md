@@ -14,4 +14,4 @@
         self.date.text = date;
     }];
 ```
-
+![image](https://github.com/liguoliangiOS/LGLDatePickerView/blob/master/LGLDatePickerView/lglDatePickView.gif)
