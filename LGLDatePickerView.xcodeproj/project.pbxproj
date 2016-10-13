@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21BD53281DAF144300B11CD3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BD53271DAF144300B11CD3 /* main.m */; };
+		21BD532B1DAF144300B11CD3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BD532A1DAF144300B11CD3 /* AppDelegate.m */; };
+		21BD532E1DAF144300B11CD3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BD532D1DAF144300B11CD3 /* ViewController.m */; };
+		21BD53311DAF144300B11CD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21BD532F1DAF144300B11CD3 /* Main.storyboard */; };
+		21BD53331DAF144300B11CD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21BD53321DAF144300B11CD3 /* Assets.xcassets */; };
+		21BD53361DAF144300B11CD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21BD53341DAF144300B11CD3 /* LaunchScreen.storyboard */; };
+		21BD53411DAF144400B11CD3 /* LGLDatePickerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BD53401DAF144400B11CD3 /* LGLDatePickerViewTests.m */; };
+		21BD534C1DAF144400B11CD3 /* LGLDatePickerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BD534B1DAF144400B11CD3 /* LGLDatePickerViewUITests.m */; };
+		21BD535B1DAF145500B11CD3 /* LGLDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BD535A1DAF145500B11CD3 /* LGLDatePickerView.m */; };
+		21BD535E1DAF14C600B11CD3 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BD535D1DAF14C600B11CD3 /* UIView+Frame.m */; };
+		21BD53601DAF1F5A00B11CD3 /* lglDatePickView.gif in Resources */ = {isa = PBXBuildFile; fileRef = 21BD535F1DAF1F5A00B11CD3 /* lglDatePickView.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21BD533D1DAF144400B11CD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21BD531B1DAF144300B11CD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21BD53221DAF144300B11CD3;
+			remoteInfo = LGLDatePickerView;
+		};
+		21BD53481DAF144400B11CD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21BD531B1DAF144300B11CD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21BD53221DAF144300B11CD3;
+			remoteInfo = LGLDatePickerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21BD53231DAF144300B11CD3 /* LGLDatePickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGLDatePickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21BD53271DAF144300B11CD3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		21BD53291DAF144300B11CD3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		21BD532A1DAF144300B11CD3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		21BD532C1DAF144300B11CD3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		21BD532D1DAF144300B11CD3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		21BD53301DAF144300B11CD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21BD53321DAF144300B11CD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21BD53351DAF144300B11CD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		21BD53371DAF144300B11CD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21BD533C1DAF144400B11CD3 /* LGLDatePickerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGLDatePickerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21BD53401DAF144400B11CD3 /* LGLDatePickerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGLDatePickerViewTests.m; sourceTree = "<group>"; };
+		21BD53421DAF144400B11CD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21BD53471DAF144400B11CD3 /* LGLDatePickerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGLDatePickerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21BD534B1DAF144400B11CD3 /* LGLDatePickerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGLDatePickerViewUITests.m; sourceTree = "<group>"; };
+		21BD534D1DAF144400B11CD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21BD53591DAF145500B11CD3 /* LGLDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGLDatePickerView.h; sourceTree = "<group>"; };
+		21BD535A1DAF145500B11CD3 /* LGLDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGLDatePickerView.m; sourceTree = "<group>"; };
+		21BD535C1DAF14C600B11CD3 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		21BD535D1DAF14C600B11CD3 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		21BD535F1DAF1F5A00B11CD3 /* lglDatePickView.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = lglDatePickView.gif; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21BD53201DAF144300B11CD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21BD53391DAF144400B11CD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21BD53441DAF144400B11CD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21BD531A1DAF144300B11CD3 = {
+			isa = PBXGroup;
+			children = (
+				21BD53251DAF144300B11CD3 /* LGLDatePickerView */,
+				21BD533F1DAF144400B11CD3 /* LGLDatePickerViewTests */,
+				21BD534A1DAF144400B11CD3 /* LGLDatePickerViewUITests */,
+				21BD53241DAF144300B11CD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21BD53241DAF144300B11CD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21BD53231DAF144300B11CD3 /* LGLDatePickerView.app */,
+				21BD533C1DAF144400B11CD3 /* LGLDatePickerViewTests.xctest */,
+				21BD53471DAF144400B11CD3 /* LGLDatePickerViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21BD53251DAF144300B11CD3 /* LGLDatePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				21BD53291DAF144300B11CD3 /* AppDelegate.h */,
+				21BD532A1DAF144300B11CD3 /* AppDelegate.m */,
+				21BD532C1DAF144300B11CD3 /* ViewController.h */,
+				21BD532D1DAF144300B11CD3 /* ViewController.m */,
+				21BD532F1DAF144300B11CD3 /* Main.storyboard */,
+				21BD53591DAF145500B11CD3 /* LGLDatePickerView.h */,
+				21BD535A1DAF145500B11CD3 /* LGLDatePickerView.m */,
+				21BD535C1DAF14C600B11CD3 /* UIView+Frame.h */,
+				21BD535D1DAF14C600B11CD3 /* UIView+Frame.m */,
+				21BD535F1DAF1F5A00B11CD3 /* lglDatePickView.gif */,
+				21BD53321DAF144300B11CD3 /* Assets.xcassets */,
+				21BD53341DAF144300B11CD3 /* LaunchScreen.storyboard */,
+				21BD53371DAF144300B11CD3 /* Info.plist */,
+				21BD53261DAF144300B11CD3 /* Supporting Files */,
+			);
+			path = LGLDatePickerView;
+			sourceTree = "<group>";
+		};
+		21BD53261DAF144300B11CD3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21BD53271DAF144300B11CD3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		21BD533F1DAF144400B11CD3 /* LGLDatePickerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				21BD53401DAF144400B11CD3 /* LGLDatePickerViewTests.m */,
+				21BD53421DAF144400B11CD3 /* Info.plist */,
+			);
+			path = LGLDatePickerViewTests;
+			sourceTree = "<group>";
+		};
+		21BD534A1DAF144400B11CD3 /* LGLDatePickerViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				21BD534B1DAF144400B11CD3 /* LGLDatePickerViewUITests.m */,
+				21BD534D1DAF144400B11CD3 /* Info.plist */,
+			);
+			path = LGLDatePickerViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21BD53221DAF144300B11CD3 /* LGLDatePickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21BD53501DAF144400B11CD3 /* Build configuration list for PBXNativeTarget "LGLDatePickerView" */;
+			buildPhases = (
+				21BD531F1DAF144300B11CD3 /* Sources */,
+				21BD53201DAF144300B11CD3 /* Frameworks */,
+				21BD53211DAF144300B11CD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LGLDatePickerView;
+			productName = LGLDatePickerView;
+			productReference = 21BD53231DAF144300B11CD3 /* LGLDatePickerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21BD533B1DAF144400B11CD3 /* LGLDatePickerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21BD53531DAF144400B11CD3 /* Build configuration list for PBXNativeTarget "LGLDatePickerViewTests" */;
+			buildPhases = (
+				21BD53381DAF144400B11CD3 /* Sources */,
+				21BD53391DAF144400B11CD3 /* Frameworks */,
+				21BD533A1DAF144400B11CD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21BD533E1DAF144400B11CD3 /* PBXTargetDependency */,
+			);
+			name = LGLDatePickerViewTests;
+			productName = LGLDatePickerViewTests;
+			productReference = 21BD533C1DAF144400B11CD3 /* LGLDatePickerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		21BD53461DAF144400B11CD3 /* LGLDatePickerViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21BD53561DAF144400B11CD3 /* Build configuration list for PBXNativeTarget "LGLDatePickerViewUITests" */;
+			buildPhases = (
+				21BD53431DAF144400B11CD3 /* Sources */,
+				21BD53441DAF144400B11CD3 /* Frameworks */,
+				21BD53451DAF144400B11CD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21BD53491DAF144400B11CD3 /* PBXTargetDependency */,
+			);
+			name = LGLDatePickerViewUITests;
+			productName = LGLDatePickerViewUITests;
+			productReference = 21BD53471DAF144400B11CD3 /* LGLDatePickerViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21BD531B1DAF144300B11CD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "李国良";
+				TargetAttributes = {
+					21BD53221DAF144300B11CD3 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					21BD533B1DAF144400B11CD3 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 21BD53221DAF144300B11CD3;
+					};
+					21BD53461DAF144400B11CD3 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 21BD53221DAF144300B11CD3;
+					};
+				};
+			};
+			buildConfigurationList = 21BD531E1DAF144300B11CD3 /* Build configuration list for PBXProject "LGLDatePickerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21BD531A1DAF144300B11CD3;
+			productRefGroup = 21BD53241DAF144300B11CD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21BD53221DAF144300B11CD3 /* LGLDatePickerView */,
+				21BD533B1DAF144400B11CD3 /* LGLDatePickerViewTests */,
+				21BD53461DAF144400B11CD3 /* LGLDatePickerViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21BD53211DAF144300B11CD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21BD53361DAF144300B11CD3 /* LaunchScreen.storyboard in Resources */,
+				21BD53331DAF144300B11CD3 /* Assets.xcassets in Resources */,
+				21BD53601DAF1F5A00B11CD3 /* lglDatePickView.gif in Resources */,
+				21BD53311DAF144300B11CD3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21BD533A1DAF144400B11CD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21BD53451DAF144400B11CD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21BD531F1DAF144300B11CD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21BD535B1DAF145500B11CD3 /* LGLDatePickerView.m in Sources */,
+				21BD532E1DAF144300B11CD3 /* ViewController.m in Sources */,
+				21BD532B1DAF144300B11CD3 /* AppDelegate.m in Sources */,
+				21BD535E1DAF14C600B11CD3 /* UIView+Frame.m in Sources */,
+				21BD53281DAF144300B11CD3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21BD53381DAF144400B11CD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21BD53411DAF144400B11CD3 /* LGLDatePickerViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21BD53431DAF144400B11CD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21BD534C1DAF144400B11CD3 /* LGLDatePickerViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21BD533E1DAF144400B11CD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21BD53221DAF144300B11CD3 /* LGLDatePickerView */;
+			targetProxy = 21BD533D1DAF144400B11CD3 /* PBXContainerItemProxy */;
+		};
+		21BD53491DAF144400B11CD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21BD53221DAF144300B11CD3 /* LGLDatePickerView */;
+			targetProxy = 21BD53481DAF144400B11CD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21BD532F1DAF144300B11CD3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21BD53301DAF144300B11CD3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21BD53341DAF144300B11CD3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21BD53351DAF144300B11CD3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21BD534E1DAF144400B11CD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		21BD534F1DAF144400B11CD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21BD53511DAF144400B11CD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LGLDatePickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lijiangzhijiekeji.LGLDatePickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		21BD53521DAF144400B11CD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LGLDatePickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lijiangzhijiekeji.LGLDatePickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		21BD53541DAF144400B11CD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LGLDatePickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lijiangzhijiekeji.LGLDatePickerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LGLDatePickerView.app/LGLDatePickerView";
+			};
+			name = Debug;
+		};
+		21BD53551DAF144400B11CD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LGLDatePickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lijiangzhijiekeji.LGLDatePickerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LGLDatePickerView.app/LGLDatePickerView";
+			};
+			name = Release;
+		};
+		21BD53571DAF144400B11CD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LGLDatePickerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lijiangzhijiekeji.LGLDatePickerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LGLDatePickerView;
+			};
+			name = Debug;
+		};
+		21BD53581DAF144400B11CD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LGLDatePickerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lijiangzhijiekeji.LGLDatePickerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LGLDatePickerView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21BD531E1DAF144300B11CD3 /* Build configuration list for PBXProject "LGLDatePickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21BD534E1DAF144400B11CD3 /* Debug */,
+				21BD534F1DAF144400B11CD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21BD53501DAF144400B11CD3 /* Build configuration list for PBXNativeTarget "LGLDatePickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21BD53511DAF144400B11CD3 /* Debug */,
+				21BD53521DAF144400B11CD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21BD53531DAF144400B11CD3 /* Build configuration list for PBXNativeTarget "LGLDatePickerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21BD53541DAF144400B11CD3 /* Debug */,
+				21BD53551DAF144400B11CD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21BD53561DAF144400B11CD3 /* Build configuration list for PBXNativeTarget "LGLDatePickerViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21BD53571DAF144400B11CD3 /* Debug */,
+				21BD53581DAF144400B11CD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21BD531B1DAF144300B11CD3 /* Project object */;
+}
